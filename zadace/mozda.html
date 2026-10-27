@@ -1,0 +1,225 @@
+
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <title>Recept za domaću pizzu</title>
+</head>
+<body>
+
+    <h1>Recept za domaću pizzu</h1>
+
+    <p>
+        Dobro došli na moj kulinarski blog!<br>
+        Danas pripremamo ukusnu domaću pizzu.
+    </p>
+
+    <hr>
+
+    <h2>O receptu</h2>
+
+    <p>
+        Domaća pizza jednostavno je jelo koje možemo
+        pripremiti kod kuće. Najvažnije je koristiti
+        <mark>svježe sastojke</mark> i dobro pripremiti tijesto.
+    </p>
+
+    <img src="https://placehold.co/600x300"
+         alt="Slika domaće pizze">
+
+    <p>
+        Više recepata možete pronaći na stranici
+        <a href="https://www.coolinarika.com/">
+            Coolinarika
+        </a>.
+    </p>
+
+    <blockquote>
+        Dobra pizza počinje kvalitetnim tijestom
+        i završava uživanjem u svakom zalogaju.
+    </blockquote>
+
+    <hr>
+
+    <h2>Sastojci</h2>
+
+    <ul>
+        <li>300 g brašna</li>
+        <li>200 ml vode</li>
+        <li>7 g suhog kvasca</li>
+        <li>200 g pasirane rajčice</li>
+        <li>200 g sira</li>
+        <li>Šunka i origano</li>
+    </ul>
+
+    <h3>Priprema korak po korak</h3>
+
+    <ol>
+        <li>Pomiješajte brašno, vodu i kvasac.</li>
+        <li>Zamijesite tijesto i ostavite ga da naraste.</li>
+        <li>Razvaljajte tijesto i premažite ga rajčicom.</li>
+        <li>Dodajte sir, šunku i origano.</li>
+        <li>Pecite pizzu oko 15 minuta na 220 °C.</li>
+    </ol>
+
+    <h3>Pojmovi iz recepta</h3>
+
+    <dl>
+        <dt><strong>Kvasac</strong></dt>
+        <dd>Sastojak koji pomaže tijestu da naraste.</dd>
+
+        <dt><strong>Origano</strong></dt>
+        <dd>Aromatični začin koji se često koristi na pizzi.</dd>
+
+        <dt><strong>Pečenje</strong></dt>
+        <dd>Toplinska obrada hrane u pećnici.</dd>
+    </dl>
+
+    <hr>
+
+    <h2>Tablica sastojaka</h2>
+
+    
+<h2>Tablica sastojaka za pizzu</h2>
+
+<table border="1">
+    <tr>
+        <th rowspan="2">Skupina</th>
+        <th rowspan="2">Sastojak</th>
+        <th colspan="2">Količina</th>
+        <th rowspan="2">Namjena</th>
+    </tr>
+
+    <tr>
+        <th>Manja pizza</th>
+        <th>Veća pizza</th>
+    </tr>
+
+    <tr>
+        <td rowspan="3">Tijesto</td>
+        <td>Brašno</td>
+        <td>150 g</td>
+        <td>300 g</td>
+        <td>Osnova tijesta</td>
+    </tr>
+
+    <tr>
+        <td>Voda</td>
+        <td>100 ml</td>
+        <td>200 ml</td>
+        <td>Za miješanje</td>
+    </tr>
+
+    <tr>
+        <td>Kvasac</td>
+        <td>3,5 g</td>
+        <td>7 g</td>
+        <td>Dizanje tijesta</td>
+    </tr>
+
+    <tr>
+        <td rowspan="3">Nadjev</td>
+        <td>Rajčica</td>
+        <td>100 g</td>
+        <td>200 g</td>
+        <td>Umak</td>
+    </tr>
+
+    <tr>
+        <td>Sir</td>
+        <td>100 g</td>
+        <td>200 g</td>
+        <td>Glavni nadjev</td>
+    </tr>
+
+    <tr>
+        <td>Šunka</td>
+        <td>50 g</td>
+        <td>100 g</td>
+        <td>Dodatak</td>
+    </tr>
+
+    <tr>
+        <th colspan="2">Temperatura pečenja</th>
+        <td colspan="2">220 °C</td>
+        <td>15–20 minuta</td>
+    </tr>
+
+    <tr>
+        <th colspan="5">Napomena: Količine su približne i mogu se prilagoditi ukusu.</th>
+    </tr>
+</table>
+
+
+    <hr>
+
+    <h2>Mali HTML podsjetnik</h2>
+
+    <p>
+        Za izradu popisa koristimo oznaku
+        <code>&lt;ul&gt;</code>, a za numerirani popis
+        oznaku <code>&lt;ol&gt;</code>.
+    </p>
+
+    <h2>Obrazac za posjetitelje</h2>
+
+    <p>
+        Ispunite obrazac i napišite svoje mišljenje
+        o receptu.
+    </p>
+
+    <form action="#" method="get">
+
+        <p>
+            <label for="ime">Ime i prezime:</label><br>
+            <input type="text" id="ime" name="ime"
+                   required>
+        </p>
+
+        <p>
+            <label for="email">E-mail adresa:</label><br>
+            <input type="email" id="email" name="email"
+                   required>
+        </p>
+
+        <p>
+            <label for="ocjena">Ocjena recepta:</label><br>
+            <select id="ocjena" name="ocjena">
+                <option value="5">Odličan</option>
+                <option value="4">Vrlo dobar</option>
+                <option value="3">Dobar</option>
+                <option value="2">Dovoljan</option>
+                <option value="1">Nedovoljan</option>
+            </select>
+        </p>
+
+        <p>
+            <label for="komentar">Komentar:</label><br>
+            <textarea id="komentar" name="komentar"
+                      rows="4" cols="40"></textarea>
+        </p>
+
+        <p>
+            <input type="checkbox" id="suglasnost"
+                   name="suglasnost" required>
+            <label for="suglasnost">
+                Potvrđujem da sam ispunio/la obrazac.
+            </label>
+        </p>
+
+        <input type="submit" value="Pošalji">
+
+        <input type="reset" value="Obriši podatke">
+
+    </form>
+
+    <hr>
+
+    <h4>Hvala na posjeti!</h4>
+
+    <p>
+        Nadam se da ćete uživati u pripremi domaće pizze.
+    </p>
+
+</body>
+</html>
