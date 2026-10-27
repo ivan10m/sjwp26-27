@@ -1,0 +1,14 @@
+body {
+  background-color: cadetblue;
+}
+
+/* pristup elementu preko id */
+
+#naslov2 {
+  color: blueviolet;
+}
+/* 
+pristup elementu preko klase */
+.naslov3 {
+  color: chartreuse;
+}
